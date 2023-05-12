@@ -3,7 +3,7 @@ import Card from './card'
 
 export default function Plans() {
 	return(
-		<div className = 'bg-gray-900 flex lg:flex-row sm:flex-col sm:justify-center sm:items-center sm:space-y-2  lg:space-x-4'>
+		<div className = 'bg-gray-900 flex lg:flex-row sm:flex-col sm:justify-center sm:items-center sm:space-y-2  lg:	space-x-4'>
 				<Card 
 					image='/genie.svg'
 					imageName='Free Plan'	
