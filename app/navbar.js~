@@ -61,12 +61,12 @@ export default  function Navbar() {
             
           </div>
            <div className='lg:hidden sm:block'>
-					<a href="/sign_in"> <button className='bg-gradient-to-r from-fuchsia-500 to-fuchsia-900 w-full text-white h-3 mt-5 flex items-center justify-center font-bold  p-5  rounded	'>Sign In</button></a>
-           		<a> <button className=' w-full text-black h-3 mt-5 flex items-center justify-center font-bold  p-5  rounded	'>Sign up</button> </a>           
+					<a href="/signIn"> <button className='bg-gradient-to-r from-fuchsia-500 to-fuchsia-900 w-full text-white h-3 mt-5 flex items-center justify-center font-bold  p-5  rounded	'>Sign In</button></a>
+           		<a href="/signUp" > <button className=' w-full text-black h-3 mt-5 flex items-center justify-center font-bold  p-5  rounded	'>Sign up</button> </a>           
             </div>
           <div className='ml-auto sm:hidden lg:block'>
 				<a href="/signIn/" >	 <button className='hover:text-gray-400 text-black p-5 w-36'>Sign In</button></a>
-           	<a>	 <button className='hover:bg-blue-700  bg-blue-500 p-5 w-36 rounded'>Sign up</button>   </a>         
+           	<a href="../signUp">	 <button className='hover:bg-blue-700  bg-blue-500 p-5 w-36 rounded'>Sign up</button>   </a>         
             </div>
         </div>
       </nav>

@@ -38,7 +38,7 @@ export default function Hero () {
 			</div>
 			
 			<div id="about" className='flex flex-col mt-20 text-gray-900'>
-					<div className='text-4xl font-bold mx-auto text-gray-300'>Trusted by people across the world</div>
+					<div className='text-4xl font-bold mx-auto '>Trusted by people across the world</div>
 					<div className='text-lg mt-5 font-bold mx-auto text-gray-500' >GymGenie has helped people in USA, India, Canada, UAE, and 80 more countries </div>			
 			</div>
 			
