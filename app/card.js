@@ -1,0 +1,23 @@
+import Image from 'next/image'
+
+export default function Card(props) {
+	return (
+    <div className='bg-gray-900 p-6 rounded-lg shadow-lg  h-3/6  smm:w-2/4 lg:w-2/6'>
+    	<div className="bg-gray-700 backdrop-blur-lg backdrop-opacity-50 rounded-lg p-6" >
+    		<Image 
+				className='mx-auto my-auto'
+				src={props.image}
+				alt={props.imageName}
+     			width={250}
+     			height={250}					
+					 />
+        <div className='font-bold text-white text-3xl'>{props.title}</div>
+        <div className='font-bold text-white text-lg'>{props.details}</div>
+        <div className='flex '>
+			<span className='font-bold text-white text-2xl my-auto'>{props.rate}</span>
+			<button className='ml-auto font-bold text-white text-lg border rounded  bg-green-700 p-2'>Buy</button>        
+   	     </div>    	
+	    	</div> 
+    </div>
+  );
+}

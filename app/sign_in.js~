@@ -1,0 +1,38 @@
+export default function SignIn(){
+return(
+	<div>
+		<div className=' w-[385px] h-[317px] bg-white mt-[25px] rounded-[20px]'>
+				 	
+				 	<div className='pl-[30px] pt-[30px] leading-20'>
+				 		<div className='leading-10'>
+				 			<label htmlFor="email" className='font-sansl h-[19px]  font-normal text-[16px] leading-[19px] text-black ' >
+      						Email address
+      					</label><br/>
+      					<input type="email" id="email" name="email" 
+      					className='bg-[#F5F5F5] w-[325px] h-[40px] rounded-[10px] placeholder-black placeholder-[16px] px-[10px] py-[15px]'
+      					placeholder='johndoe@gmail.com' /> 
+				 		</div>
+      				
+						<div className='leading-10' >
+							<label htmlFor="password" className='font-sansl h-[19px]  font-normal text-[16px] leading-[19px] text-black '>
+      						Password
+      					</label><br/>
+      					<input type="password" id="password" name="password" 
+      					className='bg-[#F5F5F5] w-[325px] h-[40px] rounded-[10px] placeholder-black placeholder-[16px] px-[10px] py-[15px]'
+      					placeholder='••••••••' />
+						</div>
+						<div className='font-sansl font-normal text-[16px] mt-[20px] text-[#346BD4]'>
+							Forgot password?						
+						</div>
+						 		<Link href='/_dashboard'>
+       							 <div className="bg-black w-[325px] h-[40px] rounded-[10px] flex text-white mt-[20px]">
+         							 <span className="font-sans font-bold text-[16px] leading-[19.5px] m-auto">
+												Sign In
+            						</span>
+        							</div>
+        						</Link>
+      				
+      			</div>	
+	</div>
+)
+}
