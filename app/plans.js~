@@ -24,7 +24,7 @@ export default function Plans() {
 					image='/genie.svg'
 					imageName='genie'	
 					title='Premiu Plan'
-					details='This include full access to AI with one-one trainer '
+					details='This include full access to AI with one-one personalised trainer '
 					rate='$40'		
 				/>
 		</div>	
