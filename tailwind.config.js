@@ -4,21 +4,18 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
- 
+
     // Or if using `src` directory:
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-		
-		screens :{
-			'sm' : '300px',
-			'md' : '500px',
-			'lg' : '900px',
-			'xl' : '1280px',
-			'2xl' : '1536px'	,	
-		
-		}  	
-  	
+    screens: {
+      'sm': '340px',
+      'md': '568px',
+      'lg': '824px',
+      'xl': '1280px',
+      '2xl': '1536px',
+    },
     extend: {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
